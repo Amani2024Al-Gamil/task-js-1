@@ -1,0 +1,19 @@
+li{list-style-type: none;}
+body{perspective: 600px;}
+.parent{transform-style: preserve-3d; transition: 5s; position: relative;}
+.parent:hover{transform: rotateY(180deg);}
+.front{z-index: 2; backface-visibility: hidden; position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
+.back{transform: rotateY(180deg);position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
+.i1{background-image: url(lljpeg.jpeg);
+background-size: 100% 100%;}
+
+.i3{background-image: url(pp.jpg);
+background-size: 100% 100%;}
+.i5{background-image: url(uu.jpg);
+background-size: 100% 100%;}
+.i7{background-image: url(صص.jpeg);
+    background-size: 100% 100%;}
+svg{width: 20%;
+display: block;
+margin-left:40% ;
+}
